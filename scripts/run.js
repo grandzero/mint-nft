@@ -6,7 +6,7 @@ const main = async () => {
   let txn = await nftContract.makeAnEpicNFT();
   await txn.wait();
   txn = await nftContract.makeAnEpicNFT();
-  await txt.wait();
+  await txn.wait();
 };
 
 const runMain = async () => {
